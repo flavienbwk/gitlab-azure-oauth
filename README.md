@@ -49,9 +49,8 @@ Binding GitLab with Azure Entra ID (formerly Azure Active Directory) with OAuth2
 
     Go to  _Identity_ > _Applications_ > _App registrations_, select application GitLab and select _Authentication_.
 
-    Click _Add a platform_ > _Web_ and add the following redirect URIs : 
+    Click _Add a platform_ > _Web_ and add the following redirect URI : 
     
     - `https://gitlab.local:10443/users/auth/azure_activedirectory_v2/callback`
-    - `https://gitlab.local:10443/users/auth/azure_oauth2/callback`
 
 You might get more information checking the [official documentation](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app).
