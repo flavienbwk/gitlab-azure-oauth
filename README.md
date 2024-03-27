@@ -54,3 +54,11 @@ Binding GitLab with Azure Entra ID (formerly Azure Active Directory) with OAuth2
     - `https://gitlab.local:10443/users/auth/azure_activedirectory_v2/callback`
 
 You might get more information checking the [official documentation](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app).
+
+## C. Start gitlab
+
+```bash
+docker compose up -d
+```
+
+After some seconds, you should be able to browse to `https://gitlab.local:10443` and click on the _Azure AD v2_ sign in button.
